@@ -1,0 +1,41 @@
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20vw;
+    
+}
+
+.vegetables,
+.sweets {
+    display: flex;
+    gap: 2rem;
+} 
+
+#main{
+   width: 50vw;
+}
+
+.figure{
+    display: block;
+}
+
+.pictures{
+    max-height: 40vh;
+    position: relative;
+}
+
+figcaption{
+    text-align: center;
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+
+#man{
+    justify-content: center;
+    text-align: center;
+}
