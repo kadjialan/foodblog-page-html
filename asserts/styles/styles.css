@@ -30,7 +30,6 @@
 
 .pictures {
   width: 100%;
-
 }
 
 figcaption {
@@ -67,46 +66,44 @@ footer {
 }
 
 @media screen and (max-width: 425px) {
-    .foot,
-    .post {
-      width: 100%;
-      display: contents;
-      grid-template-rows: auto;
-    }
+  .foot,
+  .post {
+    width: 100%;
+    display: contents;
+    grid-template-rows: auto;
+  }
 
-    footer {
-      display: grid;
-      width: 100%;
-    }
+  footer {
+    display: grid;
+    width: 100%;
+  }
 
-    #main {
-      width: 80%;
-    }
+   #main {
+    width: 80%;
+  }
 
+  .vegetables,
+  .sweets {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .vegetables,
-    .sweets {
-      display: flex;
-      flex-direction: column;
-    }
+  .figure {
+    display: contents;
+    text-align: center;
+    width: 100%;
+  }
 
-    .figure {
-      display: contents;
-      text-align: center;
-      width: 100%;
-    }
+  .tags {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 2px;
+    max-width: 1vw;
+  }
 
-    .tags {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      gap: 2px;
-      max-width: 1vw;
-
-    }
-
-    .tags-heading {
-      display: flex;
-      flex-direction: column;
-    }
+  .tags-heading {
+    display: flex;
+    flex-direction: column;
+  }
 }
