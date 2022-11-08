@@ -47,22 +47,16 @@ figcaption {
   text-align: center;
 }
 
-.foot,
-.post,
-.tags {
-  display: block;
-  max-width: 20vw;
-}
-
 .post p {
   display: flex;
   gap: 1rem;
 }
 
 footer {
-  display: flex;
-  gap: 4vw;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10vw;
+  line-height: 1.6;
 }
 
 @media screen and (max-width: 425px) {
@@ -74,11 +68,11 @@ footer {
   }
 
   footer {
-    display: grid;
+    display: block;
     width: 100%;
   }
 
-   #main {
+  #main {
     width: 80%;
   }
 
@@ -97,13 +91,12 @@ footer {
   .tags {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 2px;
-    max-width: 1vw;
+    flex-wrap: wrap;
+    gap: 3px;
   }
 
-  .tags-heading {
+ .tags-heading {
     display: flex;
-    flex-direction: column;
-  }
+    flex-direction: row;
+  } 
 }
