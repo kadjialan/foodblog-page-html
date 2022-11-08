@@ -91,12 +91,12 @@ footer {
   .tags {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-flow: wrap;
     gap: 3px;
   }
 
- .tags-heading {
+  .tags-heading {
     display: flex;
     flex-direction: row;
-  } 
+  }
 }
