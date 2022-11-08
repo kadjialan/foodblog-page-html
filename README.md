@@ -56,7 +56,7 @@ Knowledge about:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](link to issue page on GitHub).
+Feel free to check the [issues page](https://github.com/kadjialan/foodblog-page-html/issues).
 
 ## Show your support
 

@@ -2,7 +2,19 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 20vw;
+  gap: 30vw;
+  font-size: 25px;
+}
+
+.men {
+  background-color: black;
+  width: 20px;
+  height: 3px;
+  margin: 10px 0;
+}
+
+.mens {
+  margin-top: 10px;
 }
 
 .vegetables,
@@ -28,8 +40,14 @@
   width: 80%;
 }
 
+span {
+  background-color: black;
+  color: white;
+  padding: 7px;
+}
+
 .pictures {
-  width: 100%;
+  width: 95%;
 }
 
 figcaption {
@@ -39,12 +57,25 @@ figcaption {
 .number {
   display: flex;
   justify-content: center;
-  gap: 3vw;
+  gap: 1vw;
+}
+
+.number p {
+  padding: 6px;
+}
+
+.number p:hover {
+  background-color: black;
+  color: white;
 }
 
 #man {
   justify-content: center;
   text-align: center;
+}
+
+#man h2 {
+  margin: 60px 0;
 }
 
 .post p {
@@ -57,6 +88,23 @@ footer {
   grid-template-columns: auto auto auto;
   gap: 10vw;
   line-height: 1.6;
+}
+
+.buttom{
+  line-height: 40px;
+}
+
+.buttom span {
+  background-color: grey;
+  margin: 0 8px;
+  height: 10px;
+}
+
+label {
+  background-color: black;
+  margin: 0 8px;
+  color: white;
+  padding: 5px;
 }
 
 @media screen and (max-width: 425px) {
