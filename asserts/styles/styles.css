@@ -1,0 +1,152 @@
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  padding: 1rem;
+  top: 0;
+}
+
+.men {
+  background-color: black;
+  width: 20px;
+  height: 3px;
+  margin: 10px 0;
+}
+
+.mens {
+  margin-top: 10px;
+}
+
+.vegetables,
+.sweets {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+#main {
+  width: 79%;
+  margin: auto;
+  padding: 2vw;
+}
+
+.figure {
+  display: block;
+  text-align: center;
+  max-width: 17.5vw;
+  margin: 1rem;
+}
+
+.chef {
+  width: 80%;
+}
+
+span {
+  background-color: black;
+  color: white;
+  padding: 7px;
+}
+
+.pictures {
+  width: 95%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  gap: 1vw;
+}
+
+.number p {
+  padding: 6px;
+}
+
+.post p {
+  display: flex;
+  gap: 1rem;
+}
+
+.number p:hover {
+  background-color: black;
+  color: white;
+}
+
+#man {
+  justify-content: center;
+  text-align: center;
+}
+
+#man h2 {
+  margin: 60px 0;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10vw;
+  line-height: 1.6;
+}
+
+.buttom {
+  line-height: 40px;
+}
+
+.buttom span {
+  background-color: grey;
+  margin: 0 8px;
+  height: 10px;
+}
+
+label {
+  background-color: black;
+  margin: 0 8px;
+  color: white;
+  padding: 5px;
+}
+
+@media screen and (max-width: 425px) {
+  .foot,
+  .post {
+    width: 100%;
+    display: contents;
+    grid-template-rows: auto;
+  }
+
+  footer {
+    display: block;
+    width: 100%;
+  }
+
+  #main {
+    width: 80%;
+  }
+
+  .vegetables,
+  .sweets {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .figure {
+    display: contents;
+    text-align: center;
+    width: 100%;
+  }
+
+  .tags {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .tags-heading {
+    display: flex;
+    flex-direction: row;
+  }
+}
